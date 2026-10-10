@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* for task 0 and task 1 */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+#contactForm #name:focus,
+#contactForm #email:focus,
+#contactForm #message:focus,
+#validationForm #name:focus,
+#validationForm #email:focus,
+#validationForm #message:focus {
+    border-color: #0d6efd;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* for bootstrap pages form is wider there */
+.container form {
+    max-width: 100%;
+}
