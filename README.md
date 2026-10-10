@@ -1,3 +1,11 @@
+## Deployment
+
+This is a static HTML/CSS site and does not require a build command. Netlify uses
+`netlify.toml` to publish the `files` directory, which contains `index.html`, all
+task pages, and the shared stylesheet. Publishing the repository root instead
+uses the root `index.html` fallback to redirect visitors to `files/` so that the
+homepage remains accessible even when a deployment overrides the publish setting.
+
 Name: Orazkhan Yelaman Group: IT-2502
 Assignment 4
 Task 0. Simple Contact Form
